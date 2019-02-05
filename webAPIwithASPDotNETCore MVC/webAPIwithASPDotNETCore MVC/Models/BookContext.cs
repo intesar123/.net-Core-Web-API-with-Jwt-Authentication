@@ -28,8 +28,6 @@ namespace webAPIwithASPDotNETCore_MVC.Models
             {
                 entity.Property(e => e.Id).IsRequired();
             });
-
-
         }
         
 

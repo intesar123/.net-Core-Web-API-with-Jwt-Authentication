@@ -12949,11 +12949,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\dotNet\\Projects\\webAPIwithASPDotNETCore MVC\\webAPIwithASPDotNETCore MVC\\webAPIwithASPDotNETCore MVC.csproj",
+      "projectUniqueName": "E:\\myGit\\.net-Core-Web-API-with-Jwt-Authentication\\webAPIwithASPDotNETCore MVC\\webAPIwithASPDotNETCore MVC\\webAPIwithASPDotNETCore MVC.csproj",
       "projectName": "webAPIwithASPDotNETCore MVC",
-      "projectPath": "F:\\dotNet\\Projects\\webAPIwithASPDotNETCore MVC\\webAPIwithASPDotNETCore MVC\\webAPIwithASPDotNETCore MVC.csproj",
+      "projectPath": "E:\\myGit\\.net-Core-Web-API-with-Jwt-Authentication\\webAPIwithASPDotNETCore MVC\\webAPIwithASPDotNETCore MVC\\webAPIwithASPDotNETCore MVC.csproj",
       "packagesPath": "C:\\Users\\alamk\\.nuget\\packages\\",
-      "outputPath": "F:\\dotNet\\Projects\\webAPIwithASPDotNETCore MVC\\webAPIwithASPDotNETCore MVC\\obj\\",
+      "outputPath": "E:\\myGit\\.net-Core-Web-API-with-Jwt-Authentication\\webAPIwithASPDotNETCore MVC\\webAPIwithASPDotNETCore MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

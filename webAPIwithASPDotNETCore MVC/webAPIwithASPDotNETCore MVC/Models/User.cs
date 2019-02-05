@@ -8,6 +8,7 @@ namespace webAPIwithASPDotNETCore_MVC.Models
     public class User
     {
         public string Name { get; set; }
+        public string FullName { get; set; }
         public string Password { get; set; }
         public string Email { get; set; }
 
@@ -16,7 +17,7 @@ namespace webAPIwithASPDotNETCore_MVC.Models
             User userVal = null;
             if(user.Name=="Intesar" && user.Password=="1234")
             {
-                userVal= new User { Name = "Intesar Alam", Email = "alam.kir@gmail.com"};
+                userVal= new User { FullName = "Intesar Alam",Name=user.Name, Email = "alam.kir@gmail.com"};
             }
             return userVal;
         }

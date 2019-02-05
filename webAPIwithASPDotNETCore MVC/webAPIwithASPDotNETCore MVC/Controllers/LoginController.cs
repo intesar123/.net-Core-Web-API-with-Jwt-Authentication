@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
@@ -41,9 +42,25 @@ namespace webAPIwithASPDotNETCore_MVC.Controllers
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
+
+            //Handle Claims with JWT
+
+            var claims = new[]
+            {
+                new Claim(JwtRegisteredClaimNames.Sub,userInfo.Name),
+                new Claim(JwtRegisteredClaimNames.Email,userInfo.Email),
+                new Claim("Full Name",userInfo.FullName),
+                new Claim(JwtRegisteredClaimNames.Jti,Guid.NewGuid().ToString())
+            };
+
+            //var token = new JwtSecurityToken(_config["Jwt:Issuer"],
+            //  _config["Jwt:Issuer"],
+            //  null,
+            //  expires: DateTime.Now.AddMinutes(120),
+            //  signingCredentials: credentials);
             var token = new JwtSecurityToken(_config["Jwt:Issuer"],
               _config["Jwt:Issuer"],
-              null,
+              claims,
               expires: DateTime.Now.AddMinutes(120),
               signingCredentials: credentials);
 
