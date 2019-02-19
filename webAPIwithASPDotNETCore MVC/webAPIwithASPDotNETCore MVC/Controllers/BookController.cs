@@ -26,7 +26,7 @@ namespace webAPIwithASPDotNETCore_MVC.Controllers
             }
         }
         [HttpGet]
-        [Authorize]
+        [Authorize(Roles ="Admin")]
         public ActionResult Get()
         {
             var user = HttpContext.User;

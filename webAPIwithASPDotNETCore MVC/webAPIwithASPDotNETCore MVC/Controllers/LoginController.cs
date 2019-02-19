@@ -50,6 +50,7 @@ namespace webAPIwithASPDotNETCore_MVC.Controllers
                 new Claim(JwtRegisteredClaimNames.Sub,userInfo.Name),
                 new Claim(JwtRegisteredClaimNames.Email,userInfo.Email),
                 new Claim("Full Name",userInfo.FullName),
+                new Claim(ClaimTypes.Role, "Admin", ClaimValueTypes.String),
                 new Claim(JwtRegisteredClaimNames.Jti,Guid.NewGuid().ToString())
             };
 
