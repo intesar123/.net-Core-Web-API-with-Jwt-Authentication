@@ -7,6 +7,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\ApplicationSetting.cs" />
+    <Compile Remove="Models\CategoryTopics.cs" />
+    <Compile Remove="Models\Chat.cs" />
+    <Compile Remove="Models\Consultant.cs" />
+    <Compile Remove="Models\ContactMessage.cs" />
+    <Compile Remove="Models\Emails.cs" />
+    <Compile Remove="Models\LoggedInUser.cs" />
+    <Compile Remove="Models\Post.cs" />
+    <Compile Remove="Models\Postcategory.cs" />
+    <Compile Remove="Models\postcomments.cs" />
+    <Compile Remove="Models\PostTr.cs" />
+    <Compile Remove="Models\Projects.cs" />
+    <Compile Remove="Models\Role.cs" />
+    <Compile Remove="Models\Settings.cs" />
+    <Compile Remove="Models\UserQuestions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
