@@ -31,3 +31,17 @@ E:\myGit\.net-Core-Web-API-with-Jwt-Authentication\webAPIwithASPDotNETCore MVC\w
 E:\myGit\.net-Core-Web-API-with-Jwt-Authentication\webAPIwithASPDotNETCore MVC\webAPIwithASPDotNETCore MVC\bin\Debug\netcoreapp2.2\MySql.Data.dll
 E:\myGit\.net-Core-Web-API-with-Jwt-Authentication\webAPIwithASPDotNETCore MVC\webAPIwithASPDotNETCore MVC\bin\Debug\netcoreapp2.2\Repositories.pdb
 E:\myGit\.net-Core-Web-API-with-Jwt-Authentication\webAPIwithASPDotNETCore MVC\webAPIwithASPDotNETCore MVC\obj\Debug\netcoreapp2.2\webAPIwithASPDotNETCore MVC.csproj.CopyComplete
+E:\GitRep\.net-Core-Web-API-with-Jwt-Authentication\webAPIwithASPDotNETCore MVC\webAPIwithASPDotNETCore MVC\bin\Debug\netcoreapp2.2\webAPIwithASPDotNETCore MVC.deps.json
+E:\GitRep\.net-Core-Web-API-with-Jwt-Authentication\webAPIwithASPDotNETCore MVC\webAPIwithASPDotNETCore MVC\bin\Debug\netcoreapp2.2\webAPIwithASPDotNETCore MVC.runtimeconfig.json
+E:\GitRep\.net-Core-Web-API-with-Jwt-Authentication\webAPIwithASPDotNETCore MVC\webAPIwithASPDotNETCore MVC\bin\Debug\netcoreapp2.2\webAPIwithASPDotNETCore MVC.runtimeconfig.dev.json
+E:\GitRep\.net-Core-Web-API-with-Jwt-Authentication\webAPIwithASPDotNETCore MVC\webAPIwithASPDotNETCore MVC\bin\Debug\netcoreapp2.2\webAPIwithASPDotNETCore MVC.dll
+E:\GitRep\.net-Core-Web-API-with-Jwt-Authentication\webAPIwithASPDotNETCore MVC\webAPIwithASPDotNETCore MVC\bin\Debug\netcoreapp2.2\webAPIwithASPDotNETCore MVC.pdb
+E:\GitRep\.net-Core-Web-API-with-Jwt-Authentication\webAPIwithASPDotNETCore MVC\webAPIwithASPDotNETCore MVC\obj\Debug\netcoreapp2.2\webAPIwithASPDotNETCore MVC.csprojAssemblyReference.cache
+E:\GitRep\.net-Core-Web-API-with-Jwt-Authentication\webAPIwithASPDotNETCore MVC\webAPIwithASPDotNETCore MVC\obj\Debug\netcoreapp2.2\webAPIwithASPDotNETCore MVC.csproj.CoreCompileInputs.cache
+E:\GitRep\.net-Core-Web-API-with-Jwt-Authentication\webAPIwithASPDotNETCore MVC\webAPIwithASPDotNETCore MVC\obj\Debug\netcoreapp2.2\webAPIwithASPDotNETCore MVC.RazorAssemblyInfo.cache
+E:\GitRep\.net-Core-Web-API-with-Jwt-Authentication\webAPIwithASPDotNETCore MVC\webAPIwithASPDotNETCore MVC\obj\Debug\netcoreapp2.2\webAPIwithASPDotNETCore MVC.RazorAssemblyInfo.cs
+E:\GitRep\.net-Core-Web-API-with-Jwt-Authentication\webAPIwithASPDotNETCore MVC\webAPIwithASPDotNETCore MVC\obj\Debug\netcoreapp2.2\webAPIwithASPDotNETCore MVC.AssemblyInfoInputs.cache
+E:\GitRep\.net-Core-Web-API-with-Jwt-Authentication\webAPIwithASPDotNETCore MVC\webAPIwithASPDotNETCore MVC\obj\Debug\netcoreapp2.2\webAPIwithASPDotNETCore MVC.AssemblyInfo.cs
+E:\GitRep\.net-Core-Web-API-with-Jwt-Authentication\webAPIwithASPDotNETCore MVC\webAPIwithASPDotNETCore MVC\obj\Debug\netcoreapp2.2\webAPIwithASPDotNETCore MVC.RazorTargetAssemblyInfo.cache
+E:\GitRep\.net-Core-Web-API-with-Jwt-Authentication\webAPIwithASPDotNETCore MVC\webAPIwithASPDotNETCore MVC\obj\Debug\netcoreapp2.2\webAPIwithASPDotNETCore MVC.dll
+E:\GitRep\.net-Core-Web-API-with-Jwt-Authentication\webAPIwithASPDotNETCore MVC\webAPIwithASPDotNETCore MVC\obj\Debug\netcoreapp2.2\webAPIwithASPDotNETCore MVC.pdb

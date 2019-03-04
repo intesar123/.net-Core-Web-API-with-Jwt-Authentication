@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Web.Mvc;
 
 namespace SampleApp.Models
 {
@@ -15,9 +14,9 @@ namespace SampleApp.Models
         public string DemoContent { get; set; }
         public string image { get; set; }
         public int Isverified { get; set; }
-        [AllowHtml]
+    
         public string Ddesc { get; set; }
-        [AllowHtml]
+    
         public string editor { get; set; }
 
     }

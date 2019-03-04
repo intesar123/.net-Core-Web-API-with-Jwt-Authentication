@@ -12,7 +12,7 @@ namespace webAPIwithASPDotNETCore_MVC.Models
         public string Id { get; set; }
         [Display(Name = "User Name")]
         [Required]
-        [StringLength(255, MinimumLength =2)]
+        [StringLength(255, MinimumLength = 2)]
         public string Name { get; set; }
         [Required]
         [Display(Name = "Full Name")]
@@ -40,9 +40,17 @@ namespace webAPIwithASPDotNETCore_MVC.Models
         [Compare("Password")]
         [DataType(DataType.Password)]
         public string ConfirmPassword { get; set; }
-        [FileExtensions(Extensions = "jpg",ErrorMessage = "Specify a JPG file. (Comma-separated values)")]
-   
-        
+
+        public User AuthenticateUser(User user)
+        {
+            User userVal = null;
+            if (user.Name == "Intesar" && user.Password == "1234")
+            {
+                userVal = new User { Name = "Intesar Alam", Email = "alam.kir@gmail.com" };
+                userVal = new User { FullName = "Intesar Alam", Name = user.Name, Email = "alam.kir@gmail.com" };
+            }
+            return userVal;
+        }
 
     }
 }

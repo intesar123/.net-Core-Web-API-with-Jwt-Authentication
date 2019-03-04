@@ -10,7 +10,7 @@ using webAPIwithASPDotNETCore_MVC.Models;
 
 namespace webAPIwithASPDotNETCore_MVC.Controllers
 {
-    [Route("api/[controller]")]
+   [Route("api/Book/[action]")]
     [ApiController]
     public class BookController : Controller
     {
@@ -38,6 +38,14 @@ namespace webAPIwithASPDotNETCore_MVC.Controllers
             return Json(lstBook);
         }
 
-
+        [HttpGet]
+        [AllowAnonymous]
+        public ActionResult<List<Models.CustomMessage>> message()
+        {
+            List<Models.CustomMessage> arr = new List<Models.CustomMessage>();
+            arr.Add(new Models.CustomMessage { Text = "A", Value = "AVal" });
+            arr.Add(new Models.CustomMessage { Text = "B", Value = "BVal" });
+           return  arr;
+        }
     }
 }
